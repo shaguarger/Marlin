@@ -1112,7 +1112,7 @@
   #define FIL_RUNOUT_INVERTING true // Set to true to invert the logic of the sensor.
   #define FIL_RUNOUT_PULLUP          // Use internal pullup for filament runout pins.
   //#define FIL_RUNOUT_PULLDOWN      // Use internal pulldown for filament runout pins.
-  #define FIL_RUNOUT_PIN 2 // Creality CR10-S stock sensor
+  #define FIL_RUNOUT_PIN P1_28 // Creality CR10-S stock sensor  //X_MAX_PIN aka. P1_28
 
   // Set one or more commands to execute on filament runout.
   // (After 'M412 H' Marlin will ask the host to handle the process.)
